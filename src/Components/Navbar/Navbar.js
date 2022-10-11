@@ -7,10 +7,10 @@ const NavBar = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav className='flex justify-between items-center px-6 py-2 bg-red-400'>
+        <nav className='flex justify-between items-center px-6 py-2 text-white bg-black'>
             <div className='font-bold text-3xl'>
                 <NavLink to='/'>
-                    <h3>Quizora</h3>
+                    <h3 className='hover:text-slate-400'>Quizora</h3>
                 </NavLink>
             </div>
 
@@ -21,16 +21,16 @@ const NavBar = () => {
                     }
                 </div>
 
-                <ul className={`bg-red-400 md:flex w-full absolute md:static ${open ? 'top-20 right-0 py-2' : 'top-[-120px] right-0'}`}>
-                    <div className='px-6 font-bold mb-2'>
+                <ul className={`bg-black md:flex w-full absolute md:static ${open ? 'top-20 right-0 py-2' : 'top-[-120px] right-0'}`}>
+                    <div className='px-6 font-bold mb-2 hover:text-slate-400'>
                         <NavLink to='/home'>Home</NavLink>
                     </div>
 
-                    <div className='px-6 font-bold mb-2'>
+                    <div className='px-6 font-bold mb-2 hover:text-slate-400'>
                         <NavLink to='/statistics'>Statistics</NavLink>
                     </div>
 
-                    <div className='px-6 font-bold'>
+                    <div className='px-6 font-bold hover:text-slate-400'>
                         <NavLink to='/blogs'>Blogs</NavLink>
                     </div>
                 </ul>
