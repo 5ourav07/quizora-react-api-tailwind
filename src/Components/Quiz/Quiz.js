@@ -13,7 +13,7 @@ const Quiz = ({ questions }) => {
 
     return (
         <div className='text-center bg-gray-400 mb-5 mx-auto w-1/2 mt-8 p-5 rounded-md'>
-            <p className='text-2xl font-bold'>{question}</p>
+            <p className='text-2xl font-bold'>Q: {question}</p>
 
             <div className='grid grid-cols-1 w-3/4 mt-5 mx-auto'>
                 {

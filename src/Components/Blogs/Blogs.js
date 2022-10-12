@@ -31,11 +31,11 @@ const Blogs = () => {
 
             <div tabIndex={2} className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
                 <div className="collapse-title text-xl font-medium">
-                    What is 'useHref()' hook?
+                    What is useRef hook?
                 </div>
                 <div className="collapse-content">
                     <p>
-                        The useHref hook returns a URL that may be used to link to the given to location, even outside of React Router.
+                        The useRef is a hook that allows to directly create a reference to the DOM element in the functional component. Syntax: const refContainer = useRef(initialValue); The useRef returns a mutable ref object.
                     </p>
                 </div>
             </div>
