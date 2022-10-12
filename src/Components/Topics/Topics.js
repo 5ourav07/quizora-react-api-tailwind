@@ -2,7 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import QuizCategories from '../QuizCategories/QuizCategories';
 
-const Home = () => {
+const Topics = () => {
     const quizLoader = useLoaderData();
     const quizCategories = quizLoader.data;
 
@@ -19,4 +19,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Topics;
