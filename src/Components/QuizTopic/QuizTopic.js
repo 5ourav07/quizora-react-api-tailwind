@@ -9,7 +9,6 @@ const QuizTopic = () => {
 
     return (
         <div>
-            <img className='w-16 mx-auto bg-black mt-5' src={quizCategories.logo} alt='' />
             <h2 className='text-2xl text-center mt-5 font-bold'>Topic Name: {quizCategories.name}</h2>
             <p className='text-center mt-5 font-bold'>Total Questions: {quizCategories.total}</p>
             {
